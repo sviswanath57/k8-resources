@@ -12,7 +12,7 @@ spec:
 
 ---
 apiVersion: v1
-kind: Namespace
+kind: Pod
 metadata:
   name: multi-pod1
   namespace: hello-pod
