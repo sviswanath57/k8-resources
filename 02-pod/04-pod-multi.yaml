@@ -14,7 +14,7 @@ spec:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: multi-pod
+  name: multi-pod1
   namespace: hello-pod
 spec:
   containers:
