@@ -13,8 +13,8 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hello-pod
-  namespace: roboshop
+  name: hello-kubepod
+  #namespace: roboshop
 spec:
   # list of containers
   containers:
