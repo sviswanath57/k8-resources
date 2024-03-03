@@ -12,12 +12,12 @@ spec:
     - containerPort: 80
     env:
     - name: course
-      valuefrom:
+      valueFrom:
         configMapKeyRef:
           name: devops-config # The ConfigMap this value comes from.
           key: course
     - name: leaners
-      valuefrom:
+      valueFrom:
         configMapKeyRef:
           name: devops-config
           key: leaner
