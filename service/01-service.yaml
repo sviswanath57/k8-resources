@@ -23,5 +23,5 @@ spec:
     app: nginx
   ports:
   - protocol: TCP
-    port: 80 # service port
+    port: 123 # service port
     targetPort: 80 #container port
